@@ -1,6 +1,6 @@
 import java.util.Arrays;
 class bubble_sort {
-	void bubble_sort(int arr[])
+	bubble_sort(int arr[])
 	{
 		int n = arr.length;
 		for (int i = 0; i < n - 1; i++)
@@ -28,5 +28,11 @@ class bubble_sort {
 		ob.bubble_sort(arr);
 		System.out.println("Sorted array");
 		ob.printArray(arr);
+	}
+
+
+	private void bubble_sort(int[] arr) {
+		// TODO Auto-generated method stub
+		
 	}
 }
